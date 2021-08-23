@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="script.js"> </script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <!-- Main div -->
+        <div class="bg">
+            <div class="leftbg">
+                <a href="UserProfile.html" style="color: navy; text-decoration: none; font-size: 20px;"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                <h2 style="color:black">Mahoor Rao</h2>
+                <a href="#" style="color: green; text-decoration: none;">Online<i class="glyphicon glyphicon-ok-circle"></i></a>
+                <br>
+                <br>
+                <img src="img_avatar2.png" alt="Avatar" style="height: 200px; width: 200px; margin-left: 50px ; border: 1px grey;"><br><br>
+                <button type="button" class="btn btn-danger" style="margin-left:110px;" >Admin</button><br><br>
+                <div style="margin-left: 45px;">
+                    <i class="glyphicon glyphicon-star"></i>
+                    <i class="glyphicon glyphicon-star"></i>
+                    <i class="glyphicon glyphicon-star"></i>
+                    <i class="glyphicon glyphicon-star"></i>
+                    <i class="glyphicon glyphicon-star half"><span style="color: #e67e22; font-size: 20px;">  Super User</span></i>  
+                </div>
+                <p style="margin-left: 60px;">Member Since: Oct 2017</p>
+                <p style="border-bottom: 2px solid gray; margin: 0px 10px;"></p><br>
+                <i class="glyphicon glyphicon-gift" style="font-size:20px; margin-left: 25px;"><span style="font-size: 20px;">  Orders: 456</span></i><br>
+                <i class="glyphicon glyphicon-envelope" style="font-size:20px; margin-left: 25px;"><span style="font-size: 20px;">  Posts: 828</span></i><br>
+                <i class="glyphicon glyphicon-tasks" style="font-size:20px; margin-left: 25px;"><span style="font-size: 20px;">  Tasks Done: 1024</span></i><br><br>
+                <p style="border-bottom: 2px solid gray; margin: 0px 10px;"></p><br>
+                <button class="btn btn-success" style="margin-left: 60px;"><i class="glyphicon glyphicon-envelope"> Send Messages</i> </button><br><br>
+            </div>
+            <div class="rightbg">
+                <h2 style="color:black">General Details</h2>
+                <p style="border-bottom: 2px solid gray; margin-left:6px; margin-right: 700px;"></p><br>
+                <img src="img_avatar2.png" alt="Avatar" style="height: 120px; width: 120px; margin-left: 50px ; border: 1px grey; border-radius: 50%;"><span style="padding-left: 30px;"><a class="btn" href="#" style=" background-color: tomato"><i class="glyphicon glyphicon-pencil"> Update Profile Picture</i> </a></span><br><br>
+                <form>
+                    <label for="name"><b>Name</b></label><br>
+                    <input type="text" placeholder="Enter your Name" name="name" style="width: 60%;"><br>
+    
+                    <label for="email"><b>Email</b></label><br>
+                    <input type="text" placeholder="Enter Email" name="email" style="width: 60%;"><br>
+                    
+                    <label for="city"><b>City</b></label><br>
+                    <input type="text" placeholder="Enter City" name="city" style="width: 60%;"><br>
+    
+                    <label ><b>Gender</b></label><br>
+                    <input type="radio" id="male" name="male" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="female" value="Female">
+                    <label for="female">Female</label><br><br>
+            
+                    <label for="psw"><b>Password</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="psw" style="width: 60%;"><br>
+            
+                    <label for="psw-repeat"><b>Repeat Password</b></label><br>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" style="width: 60%;"><br><br>
+                    
+                    
+                    <div class="clearfix">
+                    <button type="button" class="cancelbtn">Save Changes</button>
+                    <button type="submit" class="signupbtn">Reset</button><br><br>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
